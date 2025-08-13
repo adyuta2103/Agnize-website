@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .one{
+                display:flex;
+                width:100%;
+                height:200px;
+                background-color:lightpink;
+                justify-content:center;
+                background-image:url('icons/background-image-1.webp')
+            }
+            .two{
+                background-color:lightblue;
+                width:80%;
+                position:relative;
+                display:flex;
+            }
+            .absolute{
+                position:absolute;
+                bottom:0px;
+                left:50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="one">
+            <div class="two">
+                two
+                <div class="absolute">
+                absolute
+                </div>
+            </div>            
+        </div>
+    </body>
+</html>

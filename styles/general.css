@@ -1,0 +1,17 @@
+body{
+    margin:0;
+    padding-top:100px;
+    font-family:myfont;
+}
+button{
+    font-family:myfont;
+}
+@font-face{
+    font-family: myfont;
+    src:url('../euclid-circular-a/Euclid\ Circular\ A\ Regular.ttf');
+}
+@font-face{
+    font-family:myfont;
+    src:url('../euclid-circular-a/Euclid\ Circular\ A\ Bold.ttf');
+    font-weight:bold;
+}

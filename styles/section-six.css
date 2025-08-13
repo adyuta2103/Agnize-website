@@ -1,0 +1,50 @@
+.section-six{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    background-color:grey;
+    background-repeat:no-repeat;
+    background-image:url('../icons/section-six-background-image-one.webp');
+    background-size:cover;
+    scale:(0.5);
+    background-position:center;
+}
+.section-six-width{
+    width:85%;
+    height:450px;
+    max-width:1300px;
+    min-width:1300px;
+    color:white;
+}
+.ss-head{
+    margin-top:120px;
+    margin-bottom:25px;
+}
+.ss-body{
+    font-size:35px;
+    font-weight:bold;
+    margin-bottom:40px;
+}
+.ss-bottom{
+    font-weight:bold;
+}
+.ss-contact-button{
+    background-color:rgb(28, 179, 225);
+    padding-top:14px;
+    padding-bottom:14px;
+    border:none;
+    font-family:arial;
+    font-weight:bold;
+    padding-left:35px;
+    padding-right:35px;
+    border-radius:50px;
+    font-size:15px;
+    transition:
+    color 0.15s,
+    background-color 1s;
+    margin-right:30px;
+}
+.ss-contact-button:hover{
+    background-color:rgb(44, 47, 59);
+    color:white; 
+}
